@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Film Festival Guide</title>
+
+<style>
+body{
+    font-family: Arial;
+    background: linear-gradient(to right, purple);
+    text-align: center;
+    color: white;
+}
+
+/* Animated title */
+h1{
+    : move 3s infinite alternate;
+}
+
+@keyframes move{
+    from{letter-spacing: 2px;}
+    to{letter-spacing: 10px;}
+}
+
+.festival{
+    background: rgba(0,0,0,0.6);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Hover animation */
+.festival:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Film Festival Guide</h1>
+
+<div class="festival">
+<h2>Addis International Film Festival</h2>
+<p>Location: Addis Ababa</p>
+<p>Month: November</p>
+</div>
+
+<div class="festival">
+<h2>Ethiopian Youth Film Festival</h2>
+<p>Location: Addis Ababa</p>
+<p>Month: July</p>
+</div>
+
+<div class="festival">
+<h2>African Film Week</h2>
+<p>Location: Addis Ababa</p>
+<p>Month: May</p>
+</div>
+
+<footer>
+<p>2018 Ethiopian Film Festival Guide</p>
+</footer>
+
+</body>
+</html>
